@@ -1,0 +1,19 @@
+﻿{
+  "manifest_version": 2,
+
+  "name": "Son Depremler",
+  "description": "Kandilli rasathenesinin web sitesinden son depremler bilgilerini alır.",
+  "version": "0.1",
+
+  "permissions": [
+    "http://*/"
+  ],
+  
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "icons": { "16": "icon.png",
+           "48": "icon.png",
+          "128": "icon.png" }
+}
