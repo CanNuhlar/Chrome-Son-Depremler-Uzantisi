@@ -4,6 +4,8 @@
 			$.ajax({
                     url: "http://qrderapp.com/mess/index.php",
                     dataType: "text",
+					cache: true,
+					processData: false,
                     success: function(data) {
                         var json = $.parseJSON(data);
 						$.each(json,function(i,item){
