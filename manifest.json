@@ -6,7 +6,8 @@
   "version": "0.1",
 
   "permissions": [
-    "http://*/"
+    "http://*/",
+	"geolocation"
   ],
   
   "browser_action": {
@@ -15,5 +16,7 @@
   },
   "icons": { "16": "icon.png",
            "48": "icon.png",
-          "128": "icon.png" }
+          "128": "icon.png" },
+		   
+      "background": { "scripts": ["background.js","jquery.min.js"] }
 }

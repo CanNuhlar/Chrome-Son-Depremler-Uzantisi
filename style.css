@@ -35,3 +35,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', end
 	z-index: 9999;
 	background: url('page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
 }
+
+p{text-align:center;font-size:12px;}
